@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    padding: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5D283;
+}
+
+.foto{
+    width:200px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: 50%;
+}
+img{
+    width: 200px;
+}
+.form{
+    padding: 200px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+/* button{
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(133, 235, 142);
+} */

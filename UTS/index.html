@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Sederhana</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <div class="head">
+        <div class="foto">
+            <img src="img/profile.jpg" alt="">
+        </div>
+        <h1>Dodi Setiawan | 20185007</h1>
+        <h2>TI reguler sore | Semester 7</h2>
+        <p>Progressive Web Apps dikembangkan dengan tujuan menyatukan keunggulan web dan aplikasi seluler, memberikan pengalaman pengguna yang lebih baik, terutama dalam hal kecepatan, ketersediaan, dan responsivitas. Hal ini membuat PWA menjadi pilihan menarik untuk pengembang yang ingin mencapai audiens di berbagai platform dengan satu kode dasar.</p>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5D283" fill-opacity="1" d="M0,64L40,58.7C80,53,160,43,240,64C320,85,400,139,480,138.7C560,139,640,85,720,64C800,43,880,53,960,53.3C1040,53,1120,43,1200,32C1280,21,1360,11,1400,5.3L1440,0L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+
+
+    <form method="/" class="form" id="commentForm">
+        <label for="comment"><h2>Masukkan komentar:</h2></label>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <script src="main.js"></script>
+    <script>
+        const form = document.getElementById("commentForm");
+        form.addEventListener("submit", () => {
+            console.log(" berhasil submit");
+        });
+    </script>
+</body>
+
+</html>
